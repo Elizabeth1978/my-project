@@ -1,0 +1,172 @@
+*{
+    
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.html{
+    scroll-behavior: smooth;
+    width: 100%;
+}
+
+body{
+    display: block;
+    background-color: rgb(168, 235, 227);        
+}
+/* Nav bar */
+.navbar{
+    display:flex;
+    justify-content: center;
+    /* margin: 5px; */
+    background:linear-gradient(rgb(238, 232, 232),rgb(198, 190, 190));
+}
+ .active{
+    /* color:rgb(1, 11, 20);
+    display: block;
+    align-items: center;
+    justify-content:center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    height: 100%; */
+}
+.navbar_item{
+    display: inline;
+    padding: 14px 16px;
+    font-size: 25px;
+}
+/* .navbar__item a:hover{
+    color: chocolate;
+    transition: all 0.5s ease;
+}
+.active a:hover{
+    color: rgb(123, 119, 190);
+    transition: all 0.8s ease;
+    display: block;
+} */
+
+/* main content  */
+
+.main{
+    margin-bottom:100px;   
+}
+.container{
+    padding: 100px;
+}
+.main__content, .myStory {
+    display: inline-block;
+    max-width: 700px;
+    text-align: justify;
+    margin: 30px;
+}
+
+/* My Resume Page */
+.Myresume{
+    display: inline-block;
+    max-width: 700px;
+    text-align: justify;
+    margin: 30px;
+}
+
+.main__content h1{
+    /* font-size: 4rem;
+    margin-top: 80px;
+    text-align: start;
+    background-color: coral;
+    background-image: linear-gradient(to top,#e513bb 0%, #9a0666 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transition;
+    -webkit-text-fill-color: transition; */
+}
+.main__content h2{
+    font-size: 3rem;
+    text-align: start;
+    background-color: coral;
+    background-image: linear-gradient(to top,#e513bb 0%, #9a0666 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transition;
+    -webkit-text-fill-color: transition;
+}
+
+.main__content h3{
+    font-size: 1rem;
+    font-style: normal;
+    background-color: coral;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transition;
+    -webkit-text-fill-color: transition;
+}
+p{
+    font-size: 1.5rem;
+    font-style: normal;
+    background-color: coral;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transition;
+    -webkit-text-fill-color: transition; 
+    padding: auto; 
+}
+.picture1{
+    width: 600px;
+    height: 700px;
+}
+.picture2{
+    width: 500px;
+    height: 700px;
+    
+}
+.picture3{
+    width: 200px;
+    height: 200px;
+    position: right;
+    
+}
+/* footer part */
+.footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;   
+}
+.icon__bar{
+    width: 100%;
+    background-color: white;
+    overflow: auto;
+    text-align: center;
+}
+/* .icon__bar a{
+    float: space;
+    text-align: left;
+    width: 10%;
+    padding: 25px 0;
+    transition: all 0.5s ease;
+    color: rgb(56, 68, 134);
+    font-size: 60px;
+} */
+.icon__bar a:hover  {
+    background-color: rgb(191, 193, 211);
+    text-decoration: none;
+}
+ 
+.icon__bar a i{
+    font-size:78px;
+    text-decoration:none;
+}
+
+.icon__bar a:link {
+    text-decoration: none;
+}
+
+.icon__bar a:visited {
+    text-decoration: none;
+}
+
+.icon__bar a:active {
+    text-decoration: none;
+}
+  
